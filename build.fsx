@@ -5,7 +5,7 @@ open System.IO
 open Fake
 open Fake.ProcessHelper
 
-let solutionFile = "Hakudu.Bootstrapper.sln"
+let solutionFile = "Bootstrapper.sln"
 
 let executableDir buildConfiguration = __SOURCE_DIRECTORY__ </> "src/Hakudu.Bootstrapper/bin" </> buildConfiguration
 let executableFile buildConfiguration = (executableDir buildConfiguration) </> "hakudu.exe"
