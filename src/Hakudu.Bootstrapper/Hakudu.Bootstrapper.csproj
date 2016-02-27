@@ -34,6 +34,22 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="..\..\paket-files\Ruhrpottpatriot\SemanticVersion\src\SemanticVersion\SemanticVersion.cs">
+      <Paket>True</Paket>
+      <Link>SemVersion/SemanticVersion.cs</Link>
+    </Compile>
+    <Compile Include="..\..\paket-files\Ruhrpottpatriot\SemanticVersion\src\SemanticVersion\SemanticVersionStringExtensions.cs">
+      <Paket>True</Paket>
+      <Link>SemVersion/SemanticVersionStringExtensions.cs</Link>
+    </Compile>
+    <Compile Include="..\..\paket-files\Ruhrpottpatriot\SemanticVersion\src\SemanticVersion\Utilities.cs">
+      <Paket>True</Paket>
+      <Link>SemVersion/Utilities.cs</Link>
+    </Compile>
+    <Compile Include="..\..\paket-files\Ruhrpottpatriot\SemanticVersion\src\SemanticVersion\VersionComparer.cs">
+      <Paket>True</Paket>
+      <Link>SemVersion/VersionComparer.cs</Link>
+    </Compile>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Core" />

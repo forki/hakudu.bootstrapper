@@ -1,5 +1,11 @@
 
-
+GITHUB
+  remote: Ruhrpottpatriot/SemanticVersion
+  specs:
+    src/SemanticVersion/SemanticVersion.cs (8e9de50cf2204a5a80835b86306b014ef159f8e0)
+    src/SemanticVersion/SemanticVersionStringExtensions.cs (8e9de50cf2204a5a80835b86306b014ef159f8e0)
+    src/SemanticVersion/Utilities.cs (8e9de50cf2204a5a80835b86306b014ef159f8e0)
+    src/SemanticVersion/VersionComparer.cs (8e9de50cf2204a5a80835b86306b014ef159f8e0)
 GROUP build
 NUGET
   remote: http://www.nuget.org/api/v2

@@ -5,6 +5,7 @@
 # Paket and NuGet packages
 /.paket/paket.exe
 packages/
+paket-files/
 
 # Build results
 .fake/

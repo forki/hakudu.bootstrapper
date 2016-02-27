@@ -1,5 +1,10 @@
 source http://nuget.org/api/v2
 
+github Ruhrpottpatriot/SemanticVersion src/SemanticVersion/SemanticVersion.cs
+github Ruhrpottpatriot/SemanticVersion src/SemanticVersion/SemanticVersionStringExtensions.cs
+github Ruhrpottpatriot/SemanticVersion src/SemanticVersion/Utilities.cs
+github Ruhrpottpatriot/SemanticVersion src/SemanticVersion/VersionComparer.cs
+
 group build
   source http://nuget.org/api/v2
   nuget FAKE ~> 4.0
