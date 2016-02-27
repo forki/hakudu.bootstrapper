@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using System.Runtime.Serialization;
 
 namespace Hakudu.Bootstrapper.GitHub
@@ -23,5 +25,8 @@ namespace Hakudu.Bootstrapper.GitHub
 
         [DataMember(Name = "assets")]
         public IList<GitHubReleaseAsset> Assets { get; private set; }
+
+        public GitHubReleaseAsset GetAssetByName(string name) =>
+            Assets?.FirstOrDefault(a => string.Compare(a.Name, name, StringComparison.OrdinalIgnoreCase) == 0);
     }
 }
