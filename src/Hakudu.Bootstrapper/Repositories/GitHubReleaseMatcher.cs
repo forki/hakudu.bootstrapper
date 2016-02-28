@@ -44,7 +44,7 @@ namespace Hakudu.Bootstrapper.Repositories
                 if (asset == null || asset.State != ASSET_STATE_UPLOADED)
                     continue;
 
-                return new PackageInfo(version, asset);
+                return new PackageInfo(version, release.PreRelease, asset);
             }
 
             return null;
