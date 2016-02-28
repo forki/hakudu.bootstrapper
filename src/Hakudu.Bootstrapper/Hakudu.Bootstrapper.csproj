@@ -61,13 +61,18 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BootstrapperContext.cs" />
     <Compile Include="BootstrapperException.cs" />
+    <Compile Include="ControllerForUser.cs" />
+    <Compile Include="ControllerForWebApp.cs" />
+    <Compile Include="ExitCode.cs" />
     <Compile Include="GitHub\GitHubApiClient.cs" />
     <Compile Include="GitHub\GitHubHeaderExtensions.cs" />
     <Compile Include="GitHub\GitHubRelease.cs" />
     <Compile Include="GitHub\GItHubReleaseAsset.cs" />
     <Compile Include="GitHub\GitHubReleaseList.cs" />
     <Compile Include="GitHub\HttpContentExtensions.cs" />
+    <Compile Include="IController.cs" />
     <Compile Include="KuduEnvironment.cs" />
     <Compile Include="LocalStorage\EngineInfo.cs" />
     <Compile Include="LocalStorage\EngineStorageManager.cs" />

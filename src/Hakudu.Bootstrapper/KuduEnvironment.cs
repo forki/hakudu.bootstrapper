@@ -13,7 +13,7 @@ namespace Hakudu.Bootstrapper
 
         public string HakuduHome { get; }
 
-        public static KuduEnvironment GetIfHostedByKudu()
+        public static KuduEnvironment GetIfExecutedInKudu()
         {
 #if !DEBUG
             if (Environment.GetEnvironmentVariable(ENV_KUDU_EXE) == null)
