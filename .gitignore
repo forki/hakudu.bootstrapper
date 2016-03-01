@@ -11,3 +11,4 @@ paket-files/
 .fake/
 bin/
 obj/
+/dist/
