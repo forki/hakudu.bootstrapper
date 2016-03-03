@@ -65,6 +65,8 @@
     <Compile Include="BootstrapperException.cs" />
     <Compile Include="ControllerForUser.cs" />
     <Compile Include="ControllerForWebApp.cs" />
+    <Compile Include="Engine\EngineExecutionException.cs" />
+    <Compile Include="Engine\EngineHost.cs" />
     <Compile Include="ExitCode.cs" />
     <Compile Include="GitHub\GitHubApiClient.cs" />
     <Compile Include="GitHub\GitHubHeaderExtensions.cs" />
