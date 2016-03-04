@@ -70,7 +70,7 @@ namespace Hakudu.Bootstrapper.Engine
             catch (Exception ex)
             {
                 var errorMessage = $"Failed to start the Hakudu engine process ({startInfo.FileName}). {ex.Message}";
-                tcs.SetException(new EngineExecutionException(errorMessage));
+                tcs.SetException(new EngineExecutionException(errorMessage, ex));
             }
 
             return tcs.Task;
